@@ -137,9 +137,12 @@ header{
 	/*border: 1px solid;*/
 	float: left;
 }
-.single_blog:nth-child(even){
-	margin-left: 6%;
+.single_blog:nth-child(odd){
+	margin-right: 6%;
 }
+/* .single_blog:nth-child(even){
+	margin-left: 6%;
+} */
 .sb_img{
 	margin: 0 0 15px;
 }
